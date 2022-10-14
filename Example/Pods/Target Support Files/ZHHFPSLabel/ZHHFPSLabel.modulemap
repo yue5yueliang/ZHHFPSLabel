@@ -1,0 +1,6 @@
+framework module ZHHFPSLabel {
+  umbrella header "ZHHFPSLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

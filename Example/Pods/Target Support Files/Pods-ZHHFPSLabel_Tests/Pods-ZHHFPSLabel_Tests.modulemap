@@ -1,0 +1,6 @@
+framework module Pods_ZHHFPSLabel_Tests {
+  umbrella header "Pods-ZHHFPSLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

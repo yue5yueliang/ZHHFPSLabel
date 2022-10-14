@@ -1,0 +1,20 @@
+PODS:
+  - ZHHFPSLabel (0.0.1):
+    - ZHHFPSLabel/Common (= 0.0.1)
+  - ZHHFPSLabel/Common (0.0.1):
+    - ZHHFPSLabel/Common/Label (= 0.0.1)
+  - ZHHFPSLabel/Common/Label (0.0.1)
+
+DEPENDENCIES:
+  - ZHHFPSLabel (from `../`)
+
+EXTERNAL SOURCES:
+  ZHHFPSLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHHFPSLabel: 3a1bd6284476e96323cbe0c08f8b649d6d1dcc0e
+
+PODFILE CHECKSUM: de42337edf2a96d966751aa571b551ddb349ee4a
+
+COCOAPODS: 1.11.2

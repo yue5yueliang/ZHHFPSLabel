@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06BD625BF535918A21D4541663ED5A01 /* Pods-ZHHFPSLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E36E0827B946ADE5C291A7CFF945A /* Pods-ZHHFPSLabel_Example-dummy.m */; };
+		086A731F5A545932FDE20DED49F35440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0A0C26CC6C8313170EF140AE73AC0663 /* ZHHFPSLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA1A8DCD1B255F92E71777932593E4A /* ZHHFPSLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		157232609EFDFA4159296C84A389F4AC /* Pods-ZHHFPSLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860802E9B4149BC7340CEBBAABED4CA5 /* Pods-ZHHFPSLabel_Tests-dummy.m */; };
+		24E0DB73F988C9709A44A629A850B834 /* ZHHFPSLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2AE98D0723564718A1E638C480D6BF /* ZHHFPSLabel-dummy.m */; };
+		2D1212D5C9CA2C14E5EDF11BB80FA8A9 /* Pods-ZHHFPSLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF4D564B465F142F9ADB818441D4D6D /* Pods-ZHHFPSLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B84F6F16782657FA99B47E5CE515193 /* Pods-ZHHFPSLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8353E15296F3E39D3D6FC8A17CC63A9F /* Pods-ZHHFPSLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6016DA19A7A922E3CEE0CB8ACF6B6D97 /* ZHHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA79F5F760102B051D7FF2F8FF86EC3 /* ZHHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC0C5945D47D8ED5D436EF6433E81D6A /* ZHHFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D9CB6C5D95CE67D6FD5F8F3364A8D6 /* ZHHFPSLabel.m */; };
+		AD5C11A7EEDFBE90394DD7935F4374EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BEFF5794FDE164357F226181D0E58DEB /* ZHHLabelHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DE87A1CDA28D4208503AAD658133E3 /* ZHHLabelHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBFDA8FDB818C3629BC29AC7342EF150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E94365E26B94F6385D7F235222B04B9A /* ZHHFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F40431FCE9B7BFCAAE6E20DD4677F56 /* ZHHFPSLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		792AAE8F4CF1EF1A1BB0A380B3A6630B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D9791E3ABC236EBCDCD0AB9EB47FF7;
+			remoteInfo = ZHHFPSLabel;
+		};
+		B08F0042874A22CC7909446581F7F2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62FEA0D16A8997B8C47C78AD8DB56D96;
+			remoteInfo = "Pods-ZHHFPSLabel_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D9CB6C5D95CE67D6FD5F8F3364A8D6 /* ZHHFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHHFPSLabel.m; path = ZHHFPSLabel/Classes/Common/Label/ZHHFPSLabel.m; sourceTree = "<group>"; };
+		18E74338C5209FEF7C851742EF7A3FEE /* Pods-ZHHFPSLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHFPSLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A65F420A0BCD5D90E20CEB3F09A9B94 /* Pods-ZHHFPSLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHFPSLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		24E160CAF1CE9049B89B6708D9127570 /* Pods-ZHHFPSLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHHFPSLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2870EBE913BD15975F9FC7CC1B1EC7D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4665BD44704DBD4D2563C992D7E23FB3 /* Pods-ZHHFPSLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHHFPSLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4CA79F5F760102B051D7FF2F8FF86EC3 /* ZHHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHHCommon.h; path = ZHHFPSLabel/Classes/ZHHCommon.h; sourceTree = "<group>"; };
+		51883FBFFC19C96B5B2E7C671EB8EB3E /* Pods-ZHHFPSLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHFPSLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		53A97D95A7F09E86A14CB3413947CA67 /* Pods-ZHHFPSLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHFPSLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56E0617B4395007CCECF255870D0FFA2 /* Pods-ZHHFPSLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZHHFPSLabel_Tests"; path = Pods_ZHHFPSLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A592973739263ED1EAE1244E35A43ED /* ZHHFPSLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHHFPSLabel.debug.xcconfig; sourceTree = "<group>"; };
+		64C9D246B1CCC8C403307F632AB66D7C /* ZHHFPSLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHHFPSLabel.modulemap; sourceTree = "<group>"; };
+		6705DD3388FBDC31C80394A1B113C19C /* Pods-ZHHFPSLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHFPSLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8353E15296F3E39D3D6FC8A17CC63A9F /* Pods-ZHHFPSLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHHFPSLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		860802E9B4149BC7340CEBBAABED4CA5 /* Pods-ZHHFPSLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHHFPSLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		8E9E36E0827B946ADE5C291A7CFF945A /* Pods-ZHHFPSLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHHFPSLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		8F2E8814D639333BEEACA867449D65FE /* Pods-ZHHFPSLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHFPSLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		97056BBAE130DC535E36599F6C7AAF22 /* Pods-ZHHFPSLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHFPSLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F245F63F822A6D8DB3F0DAD0721B2B4 /* ZHHFPSLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHHFPSLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F40431FCE9B7BFCAAE6E20DD4677F56 /* ZHHFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHHFPSLabel.h; path = ZHHFPSLabel/Classes/Common/Label/ZHHFPSLabel.h; sourceTree = "<group>"; };
+		A024F1F686ADA29D10B1C0E1DE01393B /* Pods-ZHHFPSLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHHFPSLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		AC2AE98D0723564718A1E638C480D6BF /* ZHHFPSLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHHFPSLabel-dummy.m"; sourceTree = "<group>"; };
+		ACA1A8DCD1B255F92E71777932593E4A /* ZHHFPSLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHHFPSLabel-umbrella.h"; sourceTree = "<group>"; };
+		B960BCF69F45F3FB30D07445F5E43263 /* Pods-ZHHFPSLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHHFPSLabel_Example.modulemap"; sourceTree = "<group>"; };
+		BDED2839577D024BC755C4567FDEDD50 /* ZHHFPSLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHHFPSLabel; path = ZHHFPSLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C070BD89843F06C4183DEF212EF603D9 /* Pods-ZHHFPSLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHFPSLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB29EF4C6B21094DCD3D3A9D68CA7FE /* ZHHFPSLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHHFPSLabel-prefix.pch"; sourceTree = "<group>"; };
+		D80F7730E33DC148A3388E032BDB60A6 /* ZHHFPSLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHHFPSLabel.release.xcconfig; sourceTree = "<group>"; };
+		E804A6382BFCF9349F176E8DAB1B9161 /* Pods-ZHHFPSLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZHHFPSLabel_Example"; path = Pods_ZHHFPSLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDA55FA4AD1477100EF0731B869B637 /* Pods-ZHHFPSLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHHFPSLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5DE87A1CDA28D4208503AAD658133E3 /* ZHHLabelHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHHLabelHeader.h; path = ZHHFPSLabel/Classes/Common/ZHHLabelHeader.h; sourceTree = "<group>"; };
+		FBF4D564B465F142F9ADB818441D4D6D /* Pods-ZHHFPSLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHHFPSLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		FD8F1BF5A679BD9D1711C4CB5B6BA5A4 /* ZHHFPSLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHHFPSLabel-Info.plist"; sourceTree = "<group>"; };
+		FF415C9C8503CBD77E1764167D5DF7CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		192B4E5F022E7FA7D20DEEDBB218CCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5C11A7EEDFBE90394DD7935F4374EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88120AFD8BAA34378EA5CC3A8F55C5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086A731F5A545932FDE20DED49F35440 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D779E4EB68AAA406775A80B2AB3DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFDA8FDB818C3629BC29AC7342EF150 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026084B67CB7DDC5EA6D77C04CFB47A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FF26DBAD445B259C1F8D3EEDD5B1BDE /* ZHHFPSLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		235E053024EDA40E67F5B605AFECD703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E804A6382BFCF9349F176E8DAB1B9161 /* Pods-ZHHFPSLabel_Example */,
+				56E0617B4395007CCECF255870D0FFA2 /* Pods-ZHHFPSLabel_Tests */,
+				BDED2839577D024BC755C4567FDEDD50 /* ZHHFPSLabel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF26DBAD445B259C1F8D3EEDD5B1BDE /* ZHHFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4CA79F5F760102B051D7FF2F8FF86EC3 /* ZHHCommon.h */,
+				F363203B4032007F45C75AA148541BC5 /* Common */,
+				B89BD75EBBEBDDFAE020EABDB94F7136 /* Pod */,
+				4FA226ED8F4D43380CC8F8E0D6C4FE77 /* Support Files */,
+			);
+			name = ZHHFPSLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		43BCE29FEA1C32E92B673B2CBB67BE00 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				9F40431FCE9B7BFCAAE6E20DD4677F56 /* ZHHFPSLabel.h */,
+				08D9CB6C5D95CE67D6FD5F8F3364A8D6 /* ZHHFPSLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		4FA226ED8F4D43380CC8F8E0D6C4FE77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C9D246B1CCC8C403307F632AB66D7C /* ZHHFPSLabel.modulemap */,
+				AC2AE98D0723564718A1E638C480D6BF /* ZHHFPSLabel-dummy.m */,
+				FD8F1BF5A679BD9D1711C4CB5B6BA5A4 /* ZHHFPSLabel-Info.plist */,
+				CDB29EF4C6B21094DCD3D3A9D68CA7FE /* ZHHFPSLabel-prefix.pch */,
+				ACA1A8DCD1B255F92E71777932593E4A /* ZHHFPSLabel-umbrella.h */,
+				5A592973739263ED1EAE1244E35A43ED /* ZHHFPSLabel.debug.xcconfig */,
+				D80F7730E33DC148A3388E032BDB60A6 /* ZHHFPSLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZHHFPSLabel";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9616AAF346CB7CBC206D143B38535BFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85F702D13F4EFB0309848433FB74876 /* Pods-ZHHFPSLabel_Example */,
+				C48198F198C953B185A4999E15492238 /* Pods-ZHHFPSLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B89BD75EBBEBDDFAE020EABDB94F7136 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2870EBE913BD15975F9FC7CC1B1EC7D9 /* LICENSE */,
+				FF415C9C8503CBD77E1764167D5DF7CD /* README.md */,
+				9F245F63F822A6D8DB3F0DAD0721B2B4 /* ZHHFPSLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C48198F198C953B185A4999E15492238 /* Pods-ZHHFPSLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A024F1F686ADA29D10B1C0E1DE01393B /* Pods-ZHHFPSLabel_Tests.modulemap */,
+				EEDA55FA4AD1477100EF0731B869B637 /* Pods-ZHHFPSLabel_Tests-acknowledgements.markdown */,
+				53A97D95A7F09E86A14CB3413947CA67 /* Pods-ZHHFPSLabel_Tests-acknowledgements.plist */,
+				860802E9B4149BC7340CEBBAABED4CA5 /* Pods-ZHHFPSLabel_Tests-dummy.m */,
+				97056BBAE130DC535E36599F6C7AAF22 /* Pods-ZHHFPSLabel_Tests-Info.plist */,
+				8353E15296F3E39D3D6FC8A17CC63A9F /* Pods-ZHHFPSLabel_Tests-umbrella.h */,
+				51883FBFFC19C96B5B2E7C671EB8EB3E /* Pods-ZHHFPSLabel_Tests.debug.xcconfig */,
+				6705DD3388FBDC31C80394A1B113C19C /* Pods-ZHHFPSLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZHHFPSLabel_Tests";
+			path = "Target Support Files/Pods-ZHHFPSLabel_Tests";
+			sourceTree = "<group>";
+		};
+		C85F702D13F4EFB0309848433FB74876 /* Pods-ZHHFPSLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B960BCF69F45F3FB30D07445F5E43263 /* Pods-ZHHFPSLabel_Example.modulemap */,
+				24E160CAF1CE9049B89B6708D9127570 /* Pods-ZHHFPSLabel_Example-acknowledgements.markdown */,
+				18E74338C5209FEF7C851742EF7A3FEE /* Pods-ZHHFPSLabel_Example-acknowledgements.plist */,
+				8E9E36E0827B946ADE5C291A7CFF945A /* Pods-ZHHFPSLabel_Example-dummy.m */,
+				4665BD44704DBD4D2563C992D7E23FB3 /* Pods-ZHHFPSLabel_Example-frameworks.sh */,
+				1A65F420A0BCD5D90E20CEB3F09A9B94 /* Pods-ZHHFPSLabel_Example-Info.plist */,
+				FBF4D564B465F142F9ADB818441D4D6D /* Pods-ZHHFPSLabel_Example-umbrella.h */,
+				C070BD89843F06C4183DEF212EF603D9 /* Pods-ZHHFPSLabel_Example.debug.xcconfig */,
+				8F2E8814D639333BEEACA867449D65FE /* Pods-ZHHFPSLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-ZHHFPSLabel_Example";
+			path = "Target Support Files/Pods-ZHHFPSLabel_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				026084B67CB7DDC5EA6D77C04CFB47A3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				235E053024EDA40E67F5B605AFECD703 /* Products */,
+				9616AAF346CB7CBC206D143B38535BFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F363203B4032007F45C75AA148541BC5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE87A1CDA28D4208503AAD658133E3 /* ZHHLabelHeader.h */,
+				43BCE29FEA1C32E92B673B2CBB67BE00 /* Label */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		020182EC7765713B13D3DA437901BD95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B84F6F16782657FA99B47E5CE515193 /* Pods-ZHHFPSLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363F61AF9209A5F72DFB6251544F40A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6016DA19A7A922E3CEE0CB8ACF6B6D97 /* ZHHCommon.h in Headers */,
+				E94365E26B94F6385D7F235222B04B9A /* ZHHFPSLabel.h in Headers */,
+				0A0C26CC6C8313170EF140AE73AC0663 /* ZHHFPSLabel-umbrella.h in Headers */,
+				BEFF5794FDE164357F226181D0E58DEB /* ZHHLabelHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E23E9E525920EA2F4C2B92C32514ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1212D5C9CA2C14E5EDF11BB80FA8A9 /* Pods-ZHHFPSLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36E1432EA1DE91698B122C790596F5E7 /* Pods-ZHHFPSLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94567E533571D4489BDB7BB8A71F7B1E /* Build configuration list for PBXNativeTarget "Pods-ZHHFPSLabel_Tests" */;
+			buildPhases = (
+				020182EC7765713B13D3DA437901BD95 /* Headers */,
+				CB81444C89461D33EF71EC7EEA5AB92A /* Sources */,
+				192B4E5F022E7FA7D20DEEDBB218CCCA /* Frameworks */,
+				C1DA30941EB3D79FE5C78C1331492276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08DB55755E41E982C15BF4800BF0E27 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHHFPSLabel_Tests";
+			productName = Pods_ZHHFPSLabel_Tests;
+			productReference = 56E0617B4395007CCECF255870D0FFA2 /* Pods-ZHHFPSLabel_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		62FEA0D16A8997B8C47C78AD8DB56D96 /* Pods-ZHHFPSLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681D9CBFD1284DF69DC6D2744DD5AFD9 /* Build configuration list for PBXNativeTarget "Pods-ZHHFPSLabel_Example" */;
+			buildPhases = (
+				60E23E9E525920EA2F4C2B92C32514ED /* Headers */,
+				2BBCC152FDF5F994EBD4AF8BEAF0050B /* Sources */,
+				F3D779E4EB68AAA406775A80B2AB3DCA /* Frameworks */,
+				A0F22B9A234E7C3256C02C060A7CDE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A63974A73D12682EC7145C97617AA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHHFPSLabel_Example";
+			productName = Pods_ZHHFPSLabel_Example;
+			productReference = E804A6382BFCF9349F176E8DAB1B9161 /* Pods-ZHHFPSLabel_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8D9791E3ABC236EBCDCD0AB9EB47FF7 /* ZHHFPSLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5EB0CAE74659170465B482FFC2B1F66 /* Build configuration list for PBXNativeTarget "ZHHFPSLabel" */;
+			buildPhases = (
+				363F61AF9209A5F72DFB6251544F40A8 /* Headers */,
+				D0B075165CF0412A178B072FB47CDBD8 /* Sources */,
+				88120AFD8BAA34378EA5CC3A8F55C5A3 /* Frameworks */,
+				4801CBA1FCCF98EAB3889FE9C3F5C37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHHFPSLabel;
+			productName = ZHHFPSLabel;
+			productReference = BDED2839577D024BC755C4567FDEDD50 /* ZHHFPSLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 235E053024EDA40E67F5B605AFECD703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62FEA0D16A8997B8C47C78AD8DB56D96 /* Pods-ZHHFPSLabel_Example */,
+				36E1432EA1DE91698B122C790596F5E7 /* Pods-ZHHFPSLabel_Tests */,
+				B8D9791E3ABC236EBCDCD0AB9EB47FF7 /* ZHHFPSLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4801CBA1FCCF98EAB3889FE9C3F5C37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F22B9A234E7C3256C02C060A7CDE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA30941EB3D79FE5C78C1331492276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBCC152FDF5F994EBD4AF8BEAF0050B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BD625BF535918A21D4541663ED5A01 /* Pods-ZHHFPSLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB81444C89461D33EF71EC7EEA5AB92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157232609EFDFA4159296C84A389F4AC /* Pods-ZHHFPSLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B075165CF0412A178B072FB47CDBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0C5945D47D8ED5D436EF6433E81D6A /* ZHHFPSLabel.m in Sources */,
+				24E0DB73F988C9709A44A629A850B834 /* ZHHFPSLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D08DB55755E41E982C15BF4800BF0E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZHHFPSLabel_Example";
+			target = 62FEA0D16A8997B8C47C78AD8DB56D96 /* Pods-ZHHFPSLabel_Example */;
+			targetProxy = B08F0042874A22CC7909446581F7F2AA /* PBXContainerItemProxy */;
+		};
+		D4A63974A73D12682EC7145C97617AA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZHHFPSLabel;
+			target = B8D9791E3ABC236EBCDCD0AB9EB47FF7 /* ZHHFPSLabel */;
+			targetProxy = 792AAE8F4CF1EF1A1BB0A380B3A6630B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09ECB9437C235E1D9FA01F3F6356713C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C070BD89843F06C4183DEF212EF603D9 /* Pods-ZHHFPSLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHFPSLabel_Example/Pods-ZHHFPSLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHFPSLabel_Example/Pods-ZHHFPSLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A21D82483C67817F455E56B903CB222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80F7730E33DC148A3388E032BDB60A6 /* ZHHFPSLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHHFPSLabel/ZHHFPSLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHHFPSLabel/ZHHFPSLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHHFPSLabel/ZHHFPSLabel.modulemap";
+				PRODUCT_MODULE_NAME = ZHHFPSLabel;
+				PRODUCT_NAME = ZHHFPSLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74C952FEDFCB10E7B1A9ECADA26EFD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51883FBFFC19C96B5B2E7C671EB8EB3E /* Pods-ZHHFPSLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHFPSLabel_Tests/Pods-ZHHFPSLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHFPSLabel_Tests/Pods-ZHHFPSLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C0F95FB3DF03C7D4EF4EB76D95EAA8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6705DD3388FBDC31C80394A1B113C19C /* Pods-ZHHFPSLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHFPSLabel_Tests/Pods-ZHHFPSLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHFPSLabel_Tests/Pods-ZHHFPSLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C150294CC3A5A8D284F4586C72216D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2E8814D639333BEEACA867449D65FE /* Pods-ZHHFPSLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHFPSLabel_Example/Pods-ZHHFPSLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHFPSLabel_Example/Pods-ZHHFPSLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F796F93A7381B93B5D33B9537AB58D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A592973739263ED1EAE1244E35A43ED /* ZHHFPSLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHHFPSLabel/ZHHFPSLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHHFPSLabel/ZHHFPSLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHHFPSLabel/ZHHFPSLabel.modulemap";
+				PRODUCT_MODULE_NAME = ZHHFPSLabel;
+				PRODUCT_NAME = ZHHFPSLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681D9CBFD1284DF69DC6D2744DD5AFD9 /* Build configuration list for PBXNativeTarget "Pods-ZHHFPSLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09ECB9437C235E1D9FA01F3F6356713C /* Debug */,
+				C150294CC3A5A8D284F4586C72216D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94567E533571D4489BDB7BB8A71F7B1E /* Build configuration list for PBXNativeTarget "Pods-ZHHFPSLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C952FEDFCB10E7B1A9ECADA26EFD2D /* Debug */,
+				C0F95FB3DF03C7D4EF4EB76D95EAA8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5EB0CAE74659170465B482FFC2B1F66 /* Build configuration list for PBXNativeTarget "ZHHFPSLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F796F93A7381B93B5D33B9537AB58D21 /* Debug */,
+				3A21D82483C67817F455E56B903CB222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
