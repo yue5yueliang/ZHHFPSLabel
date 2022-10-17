@@ -24,7 +24,7 @@ pod 'ZHHFPSLabel'
 
 ## Author
 
-宁小陌y, 136769890@qq.com
+桃色三岁, 136769890@qq.com
 
 ## License
 
